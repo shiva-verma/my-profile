@@ -1,0 +1,92 @@
+.App {
+  /* font-family: Avenir; */
+  font-family: 'Lato', sans-serif;
+}
+
+.styleCard {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #ccc;
+  color: #253b56;
+  margin: 12px 0px;
+  cursor: pointer;
+}
+
+.styleCardContent {
+  padding: 4px 16px 20px 16px;
+}
+
+.styleImage {
+  background-color: lightGray;
+  border-radius: 8px 8px 0 0;
+  max-height: 140px;
+  overflow: hidden;
+}
+
+.styleCardTitle {
+  /* font-family: Avenir-Heavy; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 12px 0px 0px 0px;
+  color: #ffffff;
+}
+
+.styleLocationLabel {
+  color: #ffffff;
+  font-size: 20;
+  margin: 4px 0;
+}
+
+.styleDescription {
+  font-size: 14;
+  margin: 8px 0 0 0;
+}
+
+.bw {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.eventOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 0px;
+  opacity: 0;
+  -webkit-transition: height 0.25s ease-in-out, opacity 0.25s;
+  transition: height 0.25s ease-in-out, opacity 0.25s;
+}
+
+.active {
+  opacity: 1;
+  height: 49px;
+}
+
+.eventOptions p {
+  margin: 16px 0 0 0;
+  font-size: 0.9em;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.going {
+  background-color: #61941b;
+}
+
+.notGoing {
+  background-color: #a1afc0;
+}
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4e9caf;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 25px;
+}

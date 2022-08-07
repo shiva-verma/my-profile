@@ -1,0 +1,7 @@
+.wrapper {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 22rem;
+  justify-content: center;
+}
